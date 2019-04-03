@@ -1,6 +1,6 @@
 ---
-title: "We Eat Fintech"
-subtitle: Innovative Fintech solutions
+title: "Creating Solutions From Ideas"
+subtitle: Merging Blockchain & Financial Services Together
 image: /img/home-jumbotron.jpg
 blurb:
     heading: Why Kaldi?
