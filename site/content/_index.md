@@ -1,6 +1,6 @@
 ---
-title: "Great coffee with a conscience"
-subtitle: Support sustainable farming while enjoying a cup
+title: "We Eat Fintech"
+subtitle: Innovative Fintech solutions
 image: /img/home-jumbotron.jpg
 blurb:
     heading: Why Kaldi?
