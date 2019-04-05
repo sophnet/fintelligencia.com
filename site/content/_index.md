@@ -23,7 +23,7 @@ products:
 
 
 values:
-    heading: Increase Your ROI with innovative solutions
+    heading: Increase Your ROI with Our Fintelligence solutions
     text: We know that one cap doesn't fit all, that's we choose the most secure, scalable and stable technologies to create the profitable solutions.
 ---
 
