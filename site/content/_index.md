@@ -8,6 +8,8 @@ blurb:
 intro:
     heading: "Conjuring ideas to solutions"
     text: "Finteligence is the ultimate spot for coffee lovers who want to learn about their java’s origin and support the farmers that grew it."
+    heading1: "FinTech Development Services"
+    text1: "Providing consultations and custom FinTech software development services for B2B payment processors, digital banks, lending providers and supply chain financing companies."
 products:
     - image: img/illustrations-coffee.svg
       text: "We sell green and roasted coffee beans that are sourced directly from independent farmers and farm cooperatives. We’re proud to offer a variety of coffee beans grown with great care for the environment and local communities. Check our post or contact us directly for current availability."
