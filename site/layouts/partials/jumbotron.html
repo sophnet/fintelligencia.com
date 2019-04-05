@@ -1,78 +1,106 @@
-<div id="SVGheroSection" class="svg-preloader d-lg-flex position-relative border-bottom z-index-2">
-      <div class="container d-lg-flex align-items-lg-center flex-lg-wrap height-lg-100vh text-center space-top-2 space-top-md-4 space-top-lg-3">
-        <div class="w-100 mx-auto mb-9 mb-lg-0">
-          <div class="mb-5">
-            <h1 class="display-4 font-size-md-down-5 font-weight-semi-bold"> {{.title}}</h1>
-                 {{ if .subtitle }}
-            <p>  {{.subtitle}}</p>
-                 {{ end }}          
-              </div>
+<!-- Hero Section -->
+    <div class="gradient-overlay-half-primary-video-v1 bg-img-hero" style="background-image: url(https://res.cloudinary.com/lmj6rf6tz/image/upload/v1554427476/img/1920x1080/img20.jpg);">
+      <!-- Video Background -->
+      <div class="js-bg-video d-none d-md-block position-absolute w-100 h-100"
+           data-hs-bgv-type="youtube"
+           data-hs-bgv-id="0qisGSwZym4"
+           data-hs-bgv-loop="true">
+      </div>
+      <!-- End Video Background -->
 
-          <!-- Form -->
-          <form class="js-validate w-md-75 w-lg-50 w-xl-40 mx-md-auto mb-4">
-            <div class="js-form-message">
-              <label class="sr-only" for="signupSrEmail">Your email</label>
-              <div class="input-group">
-                <input type="email" class="form-control" name="email" id="signupSrEmail" placeholder="Enter your email" aria-label="Enter your email" required
-                       data-msg="Please enter a valid email address."
-                       data-error-class="u-has-error"
-                       data-success-class="u-has-success">
-                <div class="input-group-append">
-                  <button type="submit" class="btn btn-primary btn-wide">Get Started</button>
+      <div class="position-relative z-index-2">
+        <!-- Content -->
+        <div class="d-md-flex">
+          <div class="container d-md-flex align-items-md-center min-height-md-100vh text-center space-3 space-top-md-4 space-top-lg-3">
+            <div class="row justify-content-md-center w-100">
+              <div class="col-md-10">
+                <!-- Fancybox -->
+                <a class="js-fancybox u-media-player" href="javascript:;"
+                   data-src="//vimeo.com/167434033"
+                   data-speed="700"
+                   data-animate-in="zoomIn"
+                   data-animate-out="zoomOut"
+                   data-caption="Front - Responsive Website Template">
+                 <span class="u-media-player__icon u-media-player__icon--lg">
+                  <span class="fas fa-play u-media-player__icon-inner"></span>
+                 </span>
+                </a>
+                <!-- End Fancybox -->
+
+                <!-- Info -->
+                <div class="mt-4 mb-7">
+ <h1 class="display-4 text-white font-weight-normal">{{.title}}</h1>
+                   {{ if .subtitle }}
+                      <p class="lead text-white"> {{.subtitle}}</p>
+                 {{ end }}    
                 </div>
+                <!-- End Info -->
+
+                <!-- Form -->
+                <form class="js-validate">
+                  <div class="form-row mb-2">
+                    <div class="col-sm-6 col-lg mb-2">
+                      <div class="js-form-message">
+                        <label class="sr-only" for="signupSrName">Name</label>
+                        <div class="input-group input-group-borderless">
+                          <input type="text" class="form-control" name="name" id="signupSrName" placeholder="Name" aria-label="Name" required
+                                 data-msg="Name must contain only letters.">
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg mb-2">
+                      <div class="js-form-message">
+                        <label class="sr-only" for="signupSrPhone">Phone</label>
+                        <div class="input-group input-group-borderless">
+                          <input type="tel" class="form-control" name="phone" id="signupSrPhone" placeholder="Phone" aria-label="Phone" required
+                                 data-msg="Phone number must contain only digits.">
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg mb-2">
+                      <div class="js-form-message">
+                        <label class="sr-only" for="signupSrEmail">Email</label>
+                        <div class="input-group input-group-borderless">
+                          <input type="email" class="form-control" name="email" id="signupSrEmail" placeholder="Email" aria-label="Email" required
+                                 data-msg="Please enter a valid email address.">
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg mb-2">
+                      <button type="submit" class="btn btn-block btn-white transition-3d-hover">Get Started</button>
+                    </div>
+                  </div>
+
+                  <!-- Checkbox -->
+                  <div class="js-form-message">
+                    <div class="custom-control custom-checkbox text-muted">
+                      <input type="checkbox" class="custom-control-input" id="termsCheckbox" name="termsCheckbox" required
+                             data-msg="Please accept our Terms and Conditions.">
+                      <label class="custom-control-label text-white" for="termsCheckbox">
+                        <small>
+                          * By clicking "Get Started", I agree to the
+                          <a class="link-white" href="/terms">Terms and Conditions</a>
+                        </small>
+                      </label>
+                    </div>
+                  </div>
+                  <!-- End Checkbox -->
+                </form>
+                <!-- End Form -->
               </div>
             </div>
-          </form>
-          <!-- End Form -->
-
-
-          <div class="small">
-            <span class="font-weight-medium">View a demo:</span>
-            <a class="link-muted mx-2" href="/">Explore live demo</a>
-
-            <!-- Fancybox -->
-            <a class="js-fancybox link-muted" href="javascript:;"
-               data-src="//vimeo.com/167434033"
-               data-speed="700"
-               data-animate-in="zoomIn"
-               data-animate-out="zoomOut"
-               data-caption="Fintelligence - Innovative Fintech Solutions">
-              <small class="fas fa-play text-primary mr-1"></small>
-              Play video
-            </a>
-            <!-- End Fancybox -->
           </div>
         </div>
+        <!-- End Content -->
 
-        <div class="w-lg-50 mt-auto mx-lg-auto">
-          <!-- SVG Icon -->
-          <figure class="ie-enterprise-2">
-            <img class="js-svg-injector" src="https://res.cloudinary.com/lmj6rf6tz/image/upload/v1554265698/svg/flat-icons/web-design.svg" alt=""
-                 data-parent="#SVGheroSection">
-          </figure>
-          <!-- End SVG Icon -->
-        </div>
       </div>
-
-      <!-- SVG Component -->
-      <div class="d-none d-lg-block content-centered-y left-0 w-100 max-width-40 z-index-n1">
-        <figure class="ie-abstract-shapes-1">
-          <img class="js-svg-injector" src="https://res.cloudinary.com/lmj6rf6tz/image/upload/v1554265669/svg/components/abstract-shapes-1.svg" alt=""
-               data-parent="#SVGheroSection">
-        </figure>
-      </div>
-      <!-- End SVG Component -->
-
-      <!-- SVG Component -->
-      <div class="d-none d-lg-block content-centered-y right-0 w-100 max-width-35 z-index-n1">
-        <figure class="ie-abstract-shapes-10">
-          <img class="js-svg-injector" src="https://res.cloudinary.com/lmj6rf6tz/image/upload/v1554265670/svg/components/abstract-shapes-10.svg" alt=""
-               data-parent="#SVGheroSection">
-        </figure>
-      </div>
-      <!-- End SVG Component -->
     </div>
     <!-- End Hero Section -->
+
+
 
 
 <!--<div class="pv5 pv6-l ph3 bg-center cover" style="background-image: url('{{.imageUrl}}')">
