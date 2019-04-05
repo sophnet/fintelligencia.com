@@ -8,12 +8,14 @@
 
 {{ partial "2-up" .Params }}
 
-{{ partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "Read more" "buttonLink" "/values") }}
+{{ partial "testimonials" . }}
 
-{{ partial "services" . }}
+{{ part{{ partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "Read more" "buttonLink" "/values") }}
 
 {{ partial "contacts" . }}
 
-{{ partial "testimonials" . }}
+{{ partial "blog" . }}
+
+{{ partial "cta2" . }}
 
 {{ end }}
