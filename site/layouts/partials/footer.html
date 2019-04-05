@@ -130,12 +130,12 @@
 <script src="https://cdn.fintelligencia.com/assets/vendor/fancybox/jquery.fancybox.min.js"></script>
   <script src="https://cdn.fintelligencia.com/assets/vendor/prism/prism.js"></script>
   <script src="https://cdn.fintelligencia.com/assets/vendor/dzsparallaxer/dzsparallaxer.js"></script>
-  <script src="https://cdn.fintelligencia.com/assets/vendor/jquery-validation/dist/jquery.validate.min.js"></script>
-
 
   <script src="https://cdn.fintelligencia.com/assets/js/hs.core.js"></script>
   <script src="https://cdn.fintelligencia.com/assets/js/components/hs.header.js"></script>
   <script src="https://cdn.fintelligencia.com/assets/js/components/hs.unfold.js"></script>  
+  <script src="https://cdn.fintelligencia.com/assets/js/components/hs.bg-video.js"></script>
+  <script src="https://cdn.fintelligencia.com/assets/js/components/hs.validation.js"></script>
   <script src="https://cdn.fintelligencia.com/assets/js/components/hs.scroll-nav.js"></script>
   <script src="https://cdn.fintelligencia.com/assets/js/components/hs.svg-injector.js"></script>
   <script src="https://cdn.fintelligencia.com/assets/js/components/hs.fancybox.js"></script>
@@ -153,9 +153,6 @@
         hideTimeOut: 0
       });
 
-      // initialization of unfold component
-      $.HSCore.components.HSUnfold.init($('[data-unfold-target]'));
-	    
       // initialization of svg injector module
       $.HSCore.components.HSSVGIngector.init('.js-svg-injector');
 
@@ -166,8 +163,15 @@
     });
 
     $(document).on('ready', function () {
+	    
       // initialization of header
       $.HSCore.components.HSHeader.init($('#header'));
+	    
+      // initialization of unfold component
+      $.HSCore.components.HSUnfold.init($('[data-unfold-target]'));
+
+      // initialization of video on background
+      $.HSCore.components.HSBgVideo.init('.js-bg-video');
 
       // initialization of fancybox
       $.HSCore.components.HSFancyBox.init('.js-fancybox');
