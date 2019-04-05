@@ -3,8 +3,8 @@ title: "Creating Solutions From Ideas"
 subtitle: Merging Blockchain & Financial Services Together
 image: /img/home-jumbotron.jpg
 blurb:
-    heading: Need some Fintelligence in the mix?
-    text: "Kaldi is the coffee store for everyone who believes that great coffee shouldn't just taste good, it should do good too. We source all of our beans directly from small scale sustainable farmers and make sure part of the profits are reinvested in their communities."
+    heading: Looking for some Fintelligence?
+    text: "We is the coffee store for everyone who believes that great coffee shouldn't just taste good, it should do good too. We source all of our beans directly from small farmers."
 intro:
     heading: "Conjuring ideas to innnovative solutions"
     text: "Finteligence is the ultimate spot for coffee lovers who want to learn about their java’s origin and support the farmers that grew it."
