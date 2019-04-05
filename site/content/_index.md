@@ -7,7 +7,7 @@ blurb:
     text: "Everyone who believes that great coffee shouldn't just taste good, it should do good too. We source all of our beans directly from small farmers."
 intro:
     heading: "Conjuring ideas into solutions"
-    text: "We develop innovative software solutions and services for all business types and are driven by being a leading Fintech solutions company."
+    text: "We develop innovative software solutions for all business types and are driven by being a leading Fintech services company."
     heading1: "FinTech Development Services"
     text1: "We provide consultations and custom FinTech software development services for B2B payment processors, digital banks, lending providers and supply chain financing companies."
     heading2: "Blockchain Development"
