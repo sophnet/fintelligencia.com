@@ -9,7 +9,7 @@ intro:
     heading: "Conjuring ideas into solutions"
     text: "We develop innovative software solutions for all business types and are driven by being a leading Fintech solutions company."
     heading1: "FinTech Development Services"
-    text1: "We provide consultations and custom FinTech software development services for B2B payment processors, digital banks, lending providers and supply chain financing companies. FinTech software engineering experience and can quickly grasp your technical requirements."
+    text1: "PFintelligencia provides in-depth consultations and custom develop FinTech software for B2B payment processors, digital banks, lending providers and supply chain financing companies. With our vast FinTech software engineering experience we quickly turn and idea into a solution."
     heading2: "Blockchain Development"
     text2: "We provide blockchain development, deliver proofs-of-concept and consult on all levels of a business project to bring clarity and understanding of integrating complex technologies. We help companies gain an advantage over thier competitors by bringing more transparency to thier business models by with custom development services which includes smart contracts, backend and mobile app development all running on the blockchain."      
     heading3: "Big Data & Advanced Analytics"
@@ -23,7 +23,7 @@ products:
 
 
 values:
-    heading: Blending the best of technologies
-    text: We know that one cap doesn't fit all, that's we choose the most secure, scalable and stable technologies to create solutions that not only fits right but also solves the bottlenecks experienced in the past with limited technologies.
+    heading: Increase Your ROI with innovative solutions
+    text: We know that one cap doesn't fit all, that's we choose the most secure, scalable and stable technologies to create the profitable solutions.
 ---
 
