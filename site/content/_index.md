@@ -7,9 +7,14 @@ blurb:
     text: "Everyone who believes that great coffee shouldn't just taste good, it should do good too. We source all of our beans directly from small farmers."
 intro:
     heading: "Conjuring ideas into solutions"
-    text: "We develop software innovations for all business types and are driven by being a leading Fintech solutions company."
+    text: "We develop innovative software solutions and services for all business types and are driven by being a leading Fintech solutions company."
     heading1: "FinTech Development Services"
-    text1: "Providing consultations and custom FinTech software development services for B2B payment processors, digital banks, lending providers and supply chain financing companies."
+    text1: "We provide consultations and custom FinTech software development services for B2B payment processors, digital banks, lending providers and supply chain financing companies."
+    heading2: "Blockchain Development Services"
+    text2: "Providing consultations and custom FinTech software development services for B2B payment processors, digital banks, lending providers and supply chain financing companies."      
+    heading3: "Big Data & Advanced Analytics"
+    text3: "Realizing the value of big data requires advanced analytical tools, high data security and quality, and constant performance optimization.Finteligencia can successfully assist companies understand and analyze consumer behavior, manage, predict, and extract important trends also implement scalable innovative models."   
+    
 products:
     - image: img/illustrations-coffee.svg
       text: "We sell green and roasted coffee beans that are sourced directly from independent farmers and farm cooperatives. We’re proud to offer a variety of coffee beans grown with great care for the environment and local communities. Check our post or contact us directly for current availability."
