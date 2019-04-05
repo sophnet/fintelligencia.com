@@ -6,7 +6,7 @@ blurb:
     heading: Providing some Fintelligence
     text: "Everyone who believes that great coffee shouldn't just taste good, it should do good too. We source all of our beans directly from small farmers."
 intro:
-    heading: "Conjuring ideas to innnovative solutions"
+    heading: "Conjuring ideas to solutions"
     text: "Finteligence is the ultimate spot for coffee lovers who want to learn about their java’s origin and support the farmers that grew it."
 products:
     - image: img/illustrations-coffee.svg
