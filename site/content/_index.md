@@ -7,7 +7,7 @@ blurb:
     text: "Everyone who believes that great coffee shouldn't just taste good, it should do good too. We source all of our beans directly from small farmers."
 intro:
     heading: "Conjuring ideas to solutions"
-    text: "Finteligence is the ultimate spot for coffee lovers who want to learn about their java’s origin and support the farmers that grew it."
+    text: "We develop software innovations for all business types and are driven by being a leading IT solutions company where our experts are inspired to create."
     heading1: "FinTech Development Services"
     text1: "Providing consultations and custom FinTech software development services for B2B payment processors, digital banks, lending providers and supply chain financing companies."
 products:
