@@ -10,7 +10,7 @@ intro:
     text: "We develop innovative software solutions and services for all business types and are driven by being a leading Fintech solutions company."
     heading1: "FinTech Development Services"
     text1: "We provide consultations and custom FinTech software development services for B2B payment processors, digital banks, lending providers and supply chain financing companies."
-    heading2: "Blockchain Development Services"
+    heading2: "Blockchain Development"
     text2: "Providing consultations and custom FinTech software development services for B2B payment processors, digital banks, lending providers and supply chain financing companies."      
     heading3: "Big Data & Advanced Analytics"
     text3: "Realizing the value of big data requires advanced analytical tools, high data security and quality, and constant performance optimization.Finteligencia can successfully assist companies understand and analyze consumer behavior, manage, predict, and extract important trends also implement scalable innovative models."   
