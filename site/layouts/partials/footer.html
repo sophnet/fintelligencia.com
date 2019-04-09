@@ -200,6 +200,14 @@
 
       // initialization of svg injector module
       $.HSCore.components.HSSVGIngector.init('.js-svg-injector');
+	    
+     
+      // initialization of malihu scrollbar
+      $.HSCore.components.HSMalihuScrollBar.init($('.js-scrollbar'));
+
+      // initialization of show animations
+      $.HSCore.components.HSShowAnimation.init('.js-animation-link');
+	    
 
       // initialization of HSScrollNav component
       $.HSCore.components.HSScrollNav.init($('.js-scroll-nav'), {
@@ -222,7 +230,13 @@
       $.HSCore.components.HSFancyBox.init('.js-fancybox');
 	    
       // initialization of slick carousel
-      $.HSCore.components.HSSlickCarousel.init('.js-slick-carousel');
+      $.HSCore.components.HSSlickCarousel.init('.js-slick-carousel');   
+      
+      // initialization of forms
+      $.HSCore.components.HSFocusState.init();
+
+      // initialization of video player
+      $.HSCore.components.HSVideoPlayer.init('.js-inline-video-player');    
 
       // initialization of form validation
       $.HSCore.components.HSValidation.init('.js-validate');
