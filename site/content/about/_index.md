@@ -1,13 +1,9 @@
 ---
 title: "About us"
-
+title: Every business needs a little push.  
 image: https://res.cloudinary.com/lmj6rf6tz/image/upload/v1554265785/img/1920x1080/img4.jpg
 values:
-  - heading: "Shade-grown coffee"
+  - heading: "What We Do?"
     text: >
-      Coffee is a small tree or shrub that grows in the forest
-      understory in its wild form, and traditionally was grown
-      commercially under other trees that provided shade. The
-      forest-like structure of shade coffee farms provides habitat for
-      a great number of migratory and resident species.
-    imageUrl: "/img/about-shade-grown.jpg"
+      Experience a level of our quality in both engineering &amp; customization works.
+    imageUrl: "https://res.cloudinary.com/lmj6rf6tz/image/upload/v1554265832/img/900x450/img2.jpg"
