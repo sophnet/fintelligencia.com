@@ -4,9 +4,9 @@
 <div class="container space-top-2 space-top-md-3">
       <!-- Title -->
       <div class="w-md-80 w-lg-50 text-center mx-md-auto mb-9">
-        <span class="btn btn-xs btn-soft-success btn-pill mb-2">What We Do?</span>
+        <span class="btn btn-xs btn-soft-success btn-pill mb-2">{{ .heading }}</span>
         <h2 class="text-primary"><strong class="font-weight-semi-bold">Enjoyable</strong> usage</h2>
-        <p>Experience a level of our quality in both design &amp; customization works.</p>
+        <p>{{ .text }}</p>
       </div>
       <!-- End Title -->
 
@@ -15,7 +15,7 @@
           <!-- Video Block -->
           <div id="youTubeVideoPlayer" class="u-video-player mb-5">
             <!-- Cover Image -->
-            <img class="img-fluid u-video-player__preview" src="https://res.cloudinary.com/lmj6rf6tz/image/upload/v1554265832/img/900x450/img2.jpg" alt="Image">
+            <img class="img-fluid u-video-player__preview" src=""{{ .Params.full_image }}" alt="">
             <!-- End Cover Image -->
 
             <!-- Play Button -->
