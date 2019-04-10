@@ -1,21 +1,29 @@
 {{ define "main" }}
 
-<div class="position-relative gradient-half-primary-v1 rounded-top-pseudo px-7 px-md-9">
-      <div class="container space-2 space-top-md-5 space-bottom-md-3">
-        <div class="w-md-80 w-lg-60">
+<div id="SVGheroBgElements" class="svg-preloader position-relative gradient-half-primary-v1 z-index-2 overflow-hidden">
+      <div class="container space-top-2 space-bottom-3 space-top-md-5 space-bottom-lg-5">
+        <div class="w-md-80 w-lg-50 text-center mx-md-auto">
           <h1 class="text-white"><span class="font-weight-semi-bold">Privacy</span> Policy</h1>
           <p class="text-white-70">Last modified: March 22, 2019 (<a class="text-light" href="#">view archived versions</a>)</p>
          
         </div>
       </div>
 
-      <!-- SVG Background Shapes -->
-      <div id="SVGbgElements2" class="d-none d-lg-block w-lg-40 content-centered-y right-0 z-index-n1 ml-9" style="">
+     <!-- SVG Background Shapes -->
+      <div class="w-100 w-sm-75 w-md-50 content-centered-y z-index-n1 ml-9">
         <figure class="ie-bg-elements-2">
-          <img class="js-svg-injector" src="" alt="" data-parent="#SVGbgElements2">
+          <img class="js-svg-injector" src="https://res.cloudinary.com/lmj6rf6tz/image/upload/v1554265676/svg/components/bg-elements-9.svg" alt=""
+               data-parent="#SVGheroBgElements">
         </figure>
       </div>
       <!-- End SVG Background Shapes -->
+
+      <!-- SVG Bottom Shape -->
+      <figure class="position-absolute right-0 bottom-0 left-0">
+        <img class="js-svg-injector" src="https://res.cloudinary.com/lmj6rf6tz/image/upload/v1554265687/svg/components/wave-4-bottom.svg" alt=""
+             data-parent="#SVGheroBgElements">
+      </figure>
+      <!-- End SVG Bottom Shape -->
     </div>
 
  <div class="container space-top-2 space-top-md-4 space-bottom-1 overflow-hidden">
