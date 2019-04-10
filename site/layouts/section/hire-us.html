@@ -1,0 +1,187 @@
+{{ define "main" }}
+  <!-- Hire Us Title Section -->
+    <div id="SVGheroBgElements" class="svg-preloader position-relative gradient-half-primary-v1 z-index-2 overflow-hidden">
+      <div class="container space-top-2 space-bottom-3 space-top-md-5 space-bottom-lg-5">
+        <div class="w-md-80 w-lg-50 text-center mx-md-auto">
+          <h1 class="text-white">Got a <span class="font-weight-semi-bold">project</span> for us?</h1>
+          <p class="lead text-white-70">We help brands and platforms turn big ideas into beautiful digital products and experiences.</p>
+        </div>
+      </div>
+
+      <!-- SVG Background Shapes -->
+      <div class="w-100 w-sm-75 w-md-50 content-centered-y z-index-n1 ml-9">
+        <figure class="ie-bg-elements-2">
+          <img class="js-svg-injector" src="../../assets/svg/components/bg-elements-2.svg" alt="Image Description"
+               data-parent="#SVGheroBgElements">
+        </figure>
+      </div>
+      <!-- End SVG Background Shapes -->
+
+      <!-- SVG Bottom Shape -->
+      <figure class="position-absolute right-0 bottom-0 left-0">
+        <img class="js-svg-injector" src="../../assets/svg/components/wave-4-bottom.svg" alt="Image Description"
+             data-parent="#SVGheroBgElements">
+      </figure>
+      <!-- End SVG Bottom Shape -->
+    </div>
+    <!-- End Hire Us Title Section -->
+
+    <!-- Hire Us Form Section -->
+    <div class="container space-bottom-2">
+      <!-- Hire Us Form -->
+      <form class="js-validate w-lg-50 mx-auto">
+        <!-- Input -->
+        <div class="js-form-message mb-6">
+          <label class="form-label">
+            Your name
+            <span class="text-danger">*</span>
+          </label>
+
+          <input type="text" class="form-control" name="firstName" placeholder="Jack Wayley" aria-label="Jack Wayley" required
+                 data-msg="Please enter your frist name."
+                 data-error-class="u-has-error"
+                 data-success-class="u-has-success">
+        </div>
+        <!-- End Input -->
+
+        <!-- Input -->
+        <div class="js-form-message mb-6">
+          <label class="form-label">
+            Your email address
+            <span class="text-danger">*</span>
+          </label>
+
+          <input type="email" class="form-control" name="emailAddress" placeholder="jackwayley@gmail.com" aria-label="jackwayley@gmail.com" required
+                 data-msg="Please enter a valid email address."
+                 data-error-class="u-has-error"
+                 data-success-class="u-has-success">
+        </div>
+        <!-- End Input -->
+
+        <!-- Input -->
+        <div class="js-form-message mb-6">
+          <label class="form-label">
+            What is your timeline for this project?
+            <span class="text-danger">*</span>
+          </label>
+
+          <input type="text" class="form-control" name="timeline" placeholder="1 month" aria-label="1 month" required
+                 data-msg="Please enter a valid date."
+                 data-error-class="u-has-error"
+                 data-success-class="u-has-success">
+        </div>
+        <!-- End Input -->
+
+        <!-- Input -->
+        <div class="js-focus-state mb-6">
+          <label class="form-label">Your website URL</label>
+          <input type="text" class="form-control" placeholder="https://www.jackwayley.com" aria-label="https://www.jackwayley.com">
+        </div>
+        <!-- End Input -->
+
+        <!-- Input -->
+        <div class="js-focus-state mb-6">
+          <label class="form-label">Your company name</label>
+          <input type="text" class="form-control" placeholder="JackWayley Inc." aria-label="JackWayley Inc.">
+        </div>
+        <!-- End Input -->
+
+        <!-- Platform -->
+        <div class="mb-6">
+          <label class="form-label">
+            Choose your platform
+            <span class="text-danger">*</span>
+          </label>
+
+          <!-- Button Group -->
+          <div class="btn-group btn-group-toggle d-flex" data-toggle="buttons">
+            <label class="btn btn-outline-secondary btn-custom-toggle-primary flex-fill">
+              <input type="checkbox" name="options" id="option1">
+              Shopify
+            </label>
+            <label class="btn btn-outline-secondary btn-custom-toggle-primary flex-fill">
+              <input type="checkbox" name="options" id="option2">
+              Web
+            </label>
+            <label class="btn btn-outline-secondary btn-custom-toggle-primary flex-fill">
+              <input type="checkbox" name="options" id="option3">
+              Other
+            </label>
+          </div>
+          <!-- End Button Group -->
+        </div>
+        <!-- End Platform -->
+
+        <!-- Budget Custom Select -->
+        <div class="mb-6">
+          <label class="form-label">
+            Tell us about your budget
+            <span class="text-danger">*</span>
+          </label>
+
+          <div class="js-focus-state">
+            <select class="form-control custom-select" required
+                    data-msg="Please select your budget."
+                    data-error-class="u-has-error"
+                    data-success-class="u-has-success">
+              <option value="" selected>$20,000 to $50,000</option>
+              <option value="budget1">$20,000 to $50,000</option>
+              <option value="budget2">$100,000 to $200,000</option>
+              <option value="budget3">$200,000+</option>
+            </select>
+          </div>
+        </div>
+        <!-- End Budget Custom Select -->
+
+        <!-- Input -->
+        <div class="js-form-message mb-6">
+          <label class="form-label">
+            Tell us about your project
+            <span class="text-danger">*</span>
+          </label>
+
+          <textarea class="form-control" rows="4" name="answer" placeholder="Hi there, I would like to ..." aria-label="Hi there, I would like to ..." required
+                    data-msg="Please enter a reason."
+                    data-error-class="u-has-error"
+                    data-success-class="u-has-success"></textarea>
+        </div>
+        <!-- End Input -->
+
+        <div class="text-center">
+          <div class="mb-2">
+            <button type="submit" class="btn btn-primary transition-3d-hover">Let's Start Working Together</button>
+          </div>
+          <p class="small">We will get back to you in 24-48 hours.</p>
+        </div>
+      </form>
+      <!-- End Hire Us Form -->
+    </div>
+    <!-- End Hire Us Form Section -->
+
+    <!-- Features Section -->
+    <div id="SVGelements" class="svg-preloader">
+      <div class="gradient-half-primary-v3">
+        <div class="container space-bottom-2">
+          <div class="w-60 mx-auto">
+            <!-- SVG Icon -->
+            <figure class="ie-app-development">
+              <img class="js-svg-injector" src="https://res.cloudinary.com/lmj6rf6tz/image/upload/v1554265651/svg/illustrations/app-development.svg" alt="Fintech Development"
+                   data-parent="#SVGelements">
+            </figure>
+            <!-- End SVG Icon -->
+          </div>
+        </div>
+      </div>
+
+      <!-- SVG Background -->
+      <figure class="position-absolute right-0 bottom-0 left-0">
+        <img class="js-svg-injector" src="https://res.cloudinary.com/lmj6rf6tz/image/upload/v1554265685/svg/components/wave-1-bottom.svg" alt="Image Description"
+             data-parent="#SVGelements">
+      </figure>
+      <!-- End SVG Background -->
+    </div>
+    <!-- End Features Section -->
+
+
+
+{{ end }}
