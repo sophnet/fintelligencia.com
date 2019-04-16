@@ -94,10 +94,21 @@
 		
 
 		{{ .Content }}
+<div class="container space-2 space-md-3">
+      <div class="row justify-content-lg-between">
+        <div class="col-lg-6 mb-9 mb-lg-0">
+          <!-- Title -->
+          <div class="mb-7">
+            <h2 class="text-primary font-weight-normal">
+              <span class="font-weight-semi-bold">Tell us</span>
+              <br>
+              about your project
+            </h2>
+            <p>Whether you have questions or you would just like to say hello, contact us.</p>
+          </div>
+          <!-- End Title -->
 
-<!-- Contact Form Section -->
-    <div class="container space-2 space-md-3">
-      <!-- Title -->
+      <div class="w-lg-80 mx-auto">		
 {{ range .Params.contact_entries }}
       <div class="w-md-80 w-lg-50 text-center mx-md-auto mb-9">
         <span class="btn btn-xs btn-soft-success btn-pill mb-2">{{ .heading }}</span>
@@ -105,10 +116,47 @@
       </div>
       <!-- End Title -->
 {{ end }}
-	    
+<!-- Office Hours -->
+          <div class="media">
+            <h4 class="h6 mr-3">Office Hours:</h4>
+            <div class="media-body">
+              <p class="small mb-0">Monday - Friday: 09:00 AM - 06:00 PM</p>
+              <p class="small mb-0">Closed on Sunday &amp; Holidays</p>
+            </div>
+          </div>
+          <!-- End Office Hours -->
+        </div>
 
-<div class="w-lg-80 mx-auto">		
-{{ partial "contact-form" . }}
+<div id="SVGwave1BottomShape" class="col-lg-5 svg-preloader d-flex align-items-end bg-img-hero gradient-overlay-half-primary-v1 min-height-550 rounded-top-pseudo" style="background-image: url(../../assets/img/615x750/img4.jpg);">
+          <!-- Contacts Info -->
+          <div class="position-relative w-100 text-center p-5 pb-9">
+            <!-- Info -->
+            <div class="mb-5">
+              <h2 class="text-white font-weight-semi-bold mb-0">North, <span class="text-warning">America</span></h2>
+              <p class="text-white-70">3670 N.W. 20TH ST, Miami, FL 33137</p>
+            </div>
+            <!-- End Info -->
+
+            <!-- Info -->
+            <div class="mb-5">
+              <h3 class="h6 text-white">Phone number</h3>
+              <span class="d-block h5 text-warning">+1 (888) 992-6002</span>
+            </div>
+            <!-- End Info -->
+
+            <!-- Contact Form -->
+         {{ partial "contact-form" . }}
+     <!-- End Subscribe Form -->
+          </div>
+          <!-- End Contacts Info -->
+
+          <!-- SVG Bottom Shape -->
+          <figure class="position-absolute right-0 bottom-0 left-0">
+            <img class="js-svg-injector" src="https://res.cloudinary.com/lmj6rf6tz/image/upload/v1554265687/svg/components/wave-4-bottom-sm.svg" alt=""
+                 data-parent="#SVGwave1BottomShape">
+          </figure>
+          <!-- End SVG Bottom Shape -->
+        </div>
       </div>
     </div>
     <!-- End Contact Form Section -->
