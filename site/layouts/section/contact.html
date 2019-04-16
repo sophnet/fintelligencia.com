@@ -1,24 +1,189 @@
 {{ define "main" }}
+<div id="SVGheroBgElements" class="svg-preloader position-relative gradient-half-primary-v1 z-index-2 overflow-hidden">
+      <div class="container space-top-2 space-bottom-3 space-top-md-5 space-bottom-lg-5">
+        <div class="w-md-80 text-center mx-auto">
+          <h1 class="display-4 font-size-md-down-5 text-white font-weight-semi-bold mb-4"><span class="font-weight-semi-bold">Got a</span> question?</h1>
+          <p class="lead text-white-70">We'd love to talk about how we can help you.</p>
+        </div>
+      </div>
 
-<div class="ph3 bg-off-white">
-	<div class="center mw6 pv3">
+<!-- SVG Background Shapes -->
+      <div class="w-100 w-sm-75 w-md-50 content-centered-y z-index-n1 ml-9">
+        <figure class="ie-bg-elements-2">
+          <img class="js-svg-injector" src="https://res.cloudinary.com/lmj6rf6tz/image/upload/v1554265676/svg/components/bg-elements-9.svg" alt=""
+               data-parent="#SVGheroBgElements">
+        </figure>
+      </div>
+      <!-- End SVG Background Shapes -->
 
-		<img src="{{ .Params.logo }}" alt="" class="db w4 center pv4">
+      <!-- SVG Bottom Shape -->
+      <figure class="position-absolute right-0 bottom-0 left-0">
+        <img class="js-svg-injector" src="https://res.cloudinary.com/lmj6rf6tz/image/upload/v1554265687/svg/components/wave-4-bottom.svg" alt=""
+             data-parent="#SVGheroBgElements">
+      </figure>
+      <!-- End SVG Bottom Shape -->
+    </div>
+    </div>
+    <!-- End Hero Section -->
+<div class="clearfix space-2">
+      <div class="row no-gutters">
+        <div class="col-sm-6 col-lg-3 u-ver-divider u-ver-divider--none-lg">
+          <!-- Contacts Info -->
+          <div class="text-center py-5">
+            <figure id="icon8" class="svg-preloader ie-height-56 max-width-8 mx-auto mb-3">
+              <img class="js-svg-injector" src="../../assets/svg/icons/icon-8.svg" alt="SVG"
+                   data-parent="#icon8">
+            </figure>
+            <h2 class="h6 mb-0">Address</h2>
+            <p class="mb-0">153 Williamson Plaza, 09514</p>
+          </div>
+          <!-- End Contacts Info -->
+        </div>
+
+        <div class="col-sm-6 col-lg-3 u-ver-divider u-ver-divider--none-lg">
+          <!-- Contacts Info -->
+          <div class="text-center py-5">
+            <figure id="icon15" class="svg-preloader ie-height-56 max-width-8 mx-auto mb-3">
+              <img class="js-svg-injector" src="https://res.cloudinary.com/lmj6rf6tz/image/upload/v1554265725/svg/icons/icon-white-15.svg" alt="SVG"
+                   data-parent="#icon15">
+            </figure>
+            <h3 class="h6 mb-0">Email</h3>
+            <p class="mb-0">hola@finteligencia.com</p>
+          </div>
+          <!-- End Contacts Info -->
+        </div>
+
+        <div class="col-sm-6 col-lg-3 u-ver-divider u-ver-divider--none-lg">
+          <!-- Contacts Info -->
+          <div class="text-center py-5">
+            <figure id="icon16" class="svg-preloader ie-height-56 max-width-8 mx-auto mb-3">
+              <img class="js-svg-injector" src="https://res.cloudinary.com/lmj6rf6tz/image/upload/v1554265720/svg/icons/icon-62.svg" alt="tollfree:+18889926009"
+                   data-parent="#icon62">
+            </figure>
+            <h3 class="h6 mb-0">US & Canada</h3>
+            <p class="mb-0">+1 (888) 992-6009</p>
+          </div>
+          <!-- End Contacts Info -->
+        </div>
+
+        <div class="col-sm-6 col-lg-3">
+          <!-- Contacts Info -->
+          <div class="text-center py-5">
+            <figure id="icon17" class="svg-preloader ie-height-56 max-width-8 mx-auto mb-3">
+              <img class="js-svg-injector" src="https://res.cloudinary.com/lmj6rf6tz/image/upload/v1554265725/svg/icons/icon-white-16.svg" alt="Mexico:+529994703727"
+                   data-parent="#icon16">
+            </figure>
+            <h3 class="h6 mb-0">Mexico Office</h3>
+            <p class="mb-0">+52 (999) 470-3727</p>
+          </div>
+          <!-- End Contacts Info -->
+        </div>
+      </div>
+    </div>
+    <!-- End Contacts Info Section -->
+
+    <hr class="my-0">
+
+		
 
 		{{ .Content }}
 
-		<div class="flex-ns mb3">
-	        	{{ range .Params.contact_entries }}
-				<div>
-					<h4 class="f4 b lh-title mb2 primary">{{ .heading }}</h4>
-					<p>{{ .text }}</p>
-				</div>
-			{{ end }}
-		</div>
+<!-- Contact Form Section -->
+    <div class="container space-2 space-md-3">
+      <!-- Title -->
+{{ range .Params.contact_entries }}
+      <div class="w-md-80 w-lg-50 text-center mx-md-auto mb-9">
+        <span class="btn btn-xs btn-soft-success btn-pill mb-2">{{ .heading }}</span>
+        <h2 class="text-primary font-weight-normal">Tell us about <span class="font-weight-semi-bold">yourself</span></h2>
+        <p>{{ .text }}</p>
+      </div>
+      <!-- End Title -->
+{{ end }}
+	    
 
-		{{ partial "contact-form" . }}
-
+      <div class="w-lg-80 mx-auto">		
+{{ partial "contact-form" . }}
 	</div>
-</div>
+ <!-- Google Map -->
+    <div class="container-fluid space-bottom-1">
+      <div id="gMapMultipleMarkers" class="embed-responsive embed-responsive-21by9 u-gmap-interactive min-height-450"
+           data-type="custom"
+           data-lat="37.4040344"
+           data-lng="-122.0289704"
+           data-zoom="13"
+           data-pin="true"
+           data-multiple-markers="true"
+           data-styles='[[
+            "", "", [
+              {"saturation": -100},
+              {"lightness": 50},
+              {"visibility": "simplified"}
+            ]],[
+              "",
+              "geometry", [
+                {"color": "#f3f3f3"}
+            ]],[
+              "road", "", [
+                {"color": "#ffffff"},
+                {"lightness": 100}
+            ]],[
+              "road",
+              "labels.text.fill", [
+                {"color": "#ffffff"},
+                {"lightness": -50}]
+            ],[
+              "water", "", [
+                {"color": "#377dff"}
+            ]]
+           ]'
+           data-markers-locations='[[
+              "https://res.cloudinary.com/lmj6rf6tz/image/upload/v1555399598/img/map-markers/map-marker1.png",
+              "Fintelligence USA",
+              37.4037277, -122.0093084,
+              "https://res.cloudinary.com/lmj6rf6tz/image/upload/v1555399087/img/150x80/img1.jpg",
+              "Fintelligence LLC.",
+              "17:48, April 2, 2019",
+              "United States",
+              "Fintelligence USA"
+            ],[
+              "https://res.cloudinary.com/lmj6rf6tz/image/upload/v1555399587/img/map-markers/map-marker5.png",
+              "Our Data Center",
+              37.4011793, -122.013562,
+              "../../assets/img/150x80/img5.jpg",
+              "Everpay data center",
+              "17:30, May 21, 2017",
+              "United States",
+              "Everpay Data Center"
+            ],[
+              "https://res.cloudinary.com/lmj6rf6tz/image/upload/v1555399598/img/map-markers/map-marker2.png",
+              "Finteligencia Lab",
+              37.4093023, -122.0385558,
+              "https://res.cloudinary.com/lmj6rf6tz/image/upload/v1555399087/img/150x80/img2.jpg",
+              "",
+              "11:48, June 3, 2017",
+              "United States",
+              "Finteligencia Lab"
+            ],[
+              "https://res.cloudinary.com/lmj6rf6tz/image/upload/v1555399598/img/map-markers/map-marker3.png",
+              "Fiteligencia Building Mexico",
+              37.4061573, -122.0400798,
+              "https://res.cloudinary.com/lmj6rf6tz/image/upload/v1555399087/img/150x80/img3.jpg",
+              "Image description",
+              "9:48, January 1, 2019",
+              "United States",
+              "Finteligencia Building Mexico"
+            ],[
+              "https://res.cloudinary.com/lmj6rf6tz/image/upload/v1555399597/img/map-markers/map-marker4.png",
+              "Merida Yucatan",
+              37.4040344, -122.0289704,
+              "https://res.cloudinary.com/lmj6rf6tz/image/upload/v1555399087/img/150x80/img4.jpg",
+              "",
+              "9:48, January 1, 2019",
+              "United States",
+              "Merida Yucatan"
+            ]]'>
+	    </div>
+    </div>
+    <!-- End Google Map -->
 
 {{ end }}
