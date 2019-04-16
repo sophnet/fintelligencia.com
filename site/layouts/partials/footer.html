@@ -171,6 +171,7 @@
  <script src="https://cdn.fintelligencia.com/assets/vendor/dzsparallaxer/dzsparallaxer.js"></script> 
 <script src="https://cdn.fintelligencia.com/assets/vendor/slick-carousel/slick/slick.js"></script>  
   <script src="https://cdn.fintelligencia.com/assets/vendor/jquery-validation/dist/jquery.validate.min.js"></script>
+ <script src="https://cdn.fintelligencia.com/assets/vendor/gmaps/gmaps.min.js"></script>
   <script src="https://cdn.fintelligencia.com/assets/vendor/hs-bg-video/vendor/player.min.js"></script>
 <script src="https://cdn.fintelligencia.com/assets/vendor/appear.js"></script>
 <script src="https://cdn.fintelligencia.com/assets/vendor/hs-bg-video/hs-bg-video.js"></script>
@@ -252,9 +253,24 @@
 	    
       // initialization of go to
       $.HSCore.components.HSGoTo.init('.js-go-to');
-    });
+    
+     // initialization of google map
+    function initMap() {
+      $.HSCore.components.HSGMap.init('.js-g-map');
+      $.HSCore.components.HSGMap.init('#gMapMultipleMarkers', {
+        infoWindowTemplate: function (imgsrc, imgalt, date, locationname, title) {
+          return '<div class="u-gmap-interactive__info">' +
+            '<img class="img-fluid mb-2" src="' + imgsrc + '" alt="' + imgalt + '">' +
+            '<small class="d-block text-muted mb-2">' + date + '</small>' +
+            '<h4 class="h6 mb-0">' + title + '</h4>' +
+            '<p class="mb-0">' + locationname + '</p>' +
+            '</div>';
+        }
+      });
+    }
   </script>
-
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyABAaQLTeSRRn4egPXc1tRNi40scrXvcQM&callback=initMap" async defer></script>	    
+  
 </body>
 
 </html>
