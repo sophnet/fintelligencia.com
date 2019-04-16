@@ -7,8 +7,15 @@
         </div>
       </div>
 
-<!-- SVG Background Shapes -->
+      
+	
+	<!-- SVG Background Shapes -->
       <div class="w-100 w-sm-75 w-md-50 content-centered-y z-index-n1 ml-9">
+	      <figure class="position-absolute right-10 top-50 left-50">
+<img class="js-svg-injector" src="https://res.cloudinary.com/lmj6rf6tz/image/upload/v1554265690/svg/flat-icons/contact-us.svg" alt="Contact us"
+                 data-parent="#SVGhireUsBg">
+	      </figure>
+      <!-- End SVG Bottom Shape -->		      
         <figure class="ie-bg-elements-2">
           <img class="js-svg-injector" src="https://res.cloudinary.com/lmj6rf6tz/image/upload/v1554265676/svg/components/bg-elements-9.svg" alt=""
                data-parent="#SVGheroBgElements">
@@ -94,16 +101,18 @@
 {{ range .Params.contact_entries }}
       <div class="w-md-80 w-lg-50 text-center mx-md-auto mb-9">
         <span class="btn btn-xs btn-soft-success btn-pill mb-2">{{ .heading }}</span>
-        <h2 class="text-primary font-weight-normal">Tell us about <span class="font-weight-semi-bold">yourself</span></h2>
         <p>{{ .text }}</p>
       </div>
       <!-- End Title -->
 {{ end }}
 	    
 
-      <div class="w-lg-80 mx-auto">		
+<div class="w-lg-80 mx-auto">		
 {{ partial "contact-form" . }}
-	</div>
+      </div>
+    </div>
+    <!-- End Contact Form Section -->
+	    
  <!-- Google Map -->
     <div class="container-fluid space-bottom-1">
       <div id="gMapMultipleMarkers" class="embed-responsive embed-responsive-21by9 u-gmap-interactive min-height-450"
