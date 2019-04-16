@@ -150,7 +150,7 @@
   </div>
   <!-- End Cookie Alert -->
 
-  <a class="js-go-to u-go-to" href="#"
+  <a class="js-go-to u-go-to" href="/#"
     data-position='{"bottom": 15, "right": 15 }'
     data-type="fixed"
     data-offset-top="400"
@@ -163,19 +163,19 @@
   <script src="https://cdn.fintelligencia.com/assets/vendor/jquery/dist/jquery.min.js"></script>
   <script src="https://cdn.fintelligencia.com/assets/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
   <script src="https://cdn.fintelligencia.com/assets/vendor/popper.js/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-  <script src="https://cdn.fintelligencia.com/assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
-  <script src="https://cdn.fintelligencia.com/assets/vendor/svg-injector/dist/svg-injector.min.js"></script>
-  <script src="https://cdn.fintelligencia.com/assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>  
+ <script src="https://cdn.fintelligencia.com/assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
+ <script src="https://cdn.fintelligencia.com/assets/vendor/svg-injector/dist/svg-injector.min.js"></script>
+ <script src="https://cdn.fintelligencia.com/assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>  
  <script src="https://cdn.fintelligencia.com/assets/vendor/dzsparallaxer/dzsparallaxer.js"></script> 
-<script src="https://cdn.fintelligencia.com/assets/vendor/slick-carousel/slick/slick.js"></script>  
-  <script src="https://cdn.fintelligencia.com/assets/vendor/jquery-validation/dist/jquery.validate.min.js"></script>
+ <script src="https://cdn.fintelligencia.com/assets/vendor/slick-carousel/slick/slick.js"></script>  
+ <script src="https://cdn.fintelligencia.com/assets/vendor/jquery-validation/dist/jquery.validate.min.js"></script>
  <script src="https://cdn.fintelligencia.com/assets/vendor/gmaps/gmaps.min.js"></script>
-  <script src="https://cdn.fintelligencia.com/assets/vendor/hs-bg-video/vendor/player.min.js"></script>
-<script src="https://cdn.fintelligencia.com/assets/vendor/appear.js"></script>
-<script src="https://cdn.fintelligencia.com/assets/vendor/hs-bg-video/hs-bg-video.js"></script>
-<script src="https://cdn.fintelligencia.com/assets/vendor/fancybox/jquery.fancybox.min.js"></script>
+ <script src="https://cdn.fintelligencia.com/assets/vendor/hs-bg-video/vendor/player.min.js"></script>
+ <script src="https://cdn.fintelligencia.com/assets/vendor/appear.js"></script>
+ <script src="https://cdn.fintelligencia.com/assets/vendor/hs-bg-video/hs-bg-video.js"></script>
+ <script src="https://cdn.fintelligencia.com/assets/vendor/fancybox/jquery.fancybox.min.js"></script>
 
   <script src="https://cdn.fintelligencia.com/assets/js/hs.core.js"></script>
   <script src="https://cdn.fintelligencia.com/assets/js/components/hs.header.js"></script>
@@ -219,6 +219,7 @@
       $.HSCore.components.HSScrollNav.init($('.js-scroll-nav'), {
         duration: 700
       });
+	    
     });
 
     $(document).on('ready', function () {
@@ -254,20 +255,6 @@
       $.HSCore.components.HSGoTo.init('.js-go-to');
     });
 
-    // initialization of google map
-    function initMap() {
-      $.HSCore.components.HSGMap.init('.js-g-map');
-      $.HSCore.components.HSGMap.init('#gMapMultipleMarkers', {
-        infoWindowTemplate: function (imgsrc, imgalt, date, locationname, title) {
-          return '<div class="u-gmap-interactive__info">' +
-            '<img class="img-fluid mb-2" src="https://fintelligencia.com/contact/'%20+%20imgsrc%20+%20'" alt="' + imgalt + '">' +
-            '<small class="d-block text-muted mb-2">' + date + '</small>' +
-            '<h4 class="h6 mb-0">' + title + '</h4>' +
-            '<p class="mb-0">' + locationname + '</p>' +
-            '</div>';
-        }
-      });
-    }
   </script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAmXkk3umQObSJNeU_v3AK9KxaW47eyqNY&callback=initMap" async defer></script>	    
   
