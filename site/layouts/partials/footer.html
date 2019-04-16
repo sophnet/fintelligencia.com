@@ -234,10 +234,6 @@
 
       // initialization of fancybox
       $.HSCore.components.HSFancyBox.init('.js-fancybox');
-	    
-     
-      // initialization of forms
-      $.HSCore.components.HSFocusState.init(); 
       
       // initialization of sticky blocks
       $.HSCore.components.HSStickyBlock.init('.js-sticky-block');
@@ -250,6 +246,9 @@
 
       // initialization of form validation
       $.HSCore.components.HSValidation.init('.js-validate');
+     
+      // initialization of forms
+      $.HSCore.components.HSFocusState.init(); 
 	    
       // initialization of go to
       $.HSCore.components.HSGoTo.init('.js-go-to');
@@ -261,7 +260,7 @@
       $.HSCore.components.HSGMap.init('#gMapMultipleMarkers', {
         infoWindowTemplate: function (imgsrc, imgalt, date, locationname, title) {
           return '<div class="u-gmap-interactive__info">' +
-            '<img class="img-fluid mb-2" src="https://htmlstream.com/preview/front-v2.3.0/html/pages/'%20+%20imgsrc%20+%20'" alt="' + imgalt + '">' +
+            '<img class="img-fluid mb-2" src="https://fintelligencia.com/contact/'%20+%20imgsrc%20+%20'" alt="' + imgalt + '">' +
             '<small class="d-block text-muted mb-2">' + date + '</small>' +
             '<h4 class="h6 mb-0">' + title + '</h4>' +
             '<p class="mb-0">' + locationname + '</p>' +
