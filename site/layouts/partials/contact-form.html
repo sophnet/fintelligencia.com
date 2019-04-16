@@ -1,7 +1,10 @@
 
       <div class="w-lg-100 mx-auto">
         <!-- Contacts Form -->
-        <form name="contact" class="js-validate" method="POST" data-netlify="true" netlify>
+        <form name="contact" class="js-validate" method="POST" netlify-honeypot="bot-field" data-netlify="true" netlify>
+               <div class="hidden">
+    <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+  </div>
           <div class="row">
             <!-- Input -->
             <div class="col-sm-6 mb-6">
