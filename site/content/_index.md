@@ -1,5 +1,5 @@
 ---
-title: "Creating Solutions From Ideas"
+title: "SEAMLESS GLOBAL BUSINESS INTEGRATION"
 subtitle: Merging Blockchain & Financial Services Together
 image: /img/home-jumbotron.jpg
 blurb:
