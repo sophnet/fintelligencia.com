@@ -1,6 +1,6 @@
 ---
-title: "Creating Solutions From Ideas"
-subtitle: Merging Blockchain & Financial Services Together
+title: "Seamless Global Payment integration"
+subtitle: Get processing faster
 image: /img/home-jumbotron.jpg
 blurb:
     heading: Providing some Fintelligence
